@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import React from 'react';
-import CarItem from './components/Caritems';
+import CarItem from './components/CarItem';
 
 export default function App() {
   return (
