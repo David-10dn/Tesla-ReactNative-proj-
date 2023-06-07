@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
 
     },
     button: {
-        backgroundColor: 'white',
         height: 40,
         justifyContent: 'center',
         alignItems: 'center',
@@ -16,7 +15,10 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        color: 'red',
+        fontSize: 12,
+        fontWeight: '500',
+        textTransform: 'uppercase',
+
     }
     
 });

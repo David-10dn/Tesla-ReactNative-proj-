@@ -16,10 +16,24 @@ const CarItem = (props) => {
                 <Text style={styles.subtitle}>Starting at $70</Text>
             </View>
 
-            <StyledButton />
+            <StyledButton
+                type="primary"
+                content={"Custom Order"}
+                onPress={() => {
+                    console.warn("Custom order was pressed")
+                }}
+            />
+
+            <StyledButton
+                type="secondary"
+                content={"Existing inventory"}
+                onPress={() => {
+                    console.warn("Existing inventory was pressed")
+                }}
+            />
 
         </View>
-    ); 
+    );
 };
- 
+
 export default CarItem;
